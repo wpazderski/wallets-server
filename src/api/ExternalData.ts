@@ -3,6 +3,10 @@ import * as Types from "@wpazderski/wallets-types";
 
 import { ExternalDataManager } from "../externalData/ExternalDataManager";
 
+
+
+
+
 export class ExternalData implements KvapiServer.api.ApiEndpointGroup {
     
     constructor(private app: KvapiServer.App, private externalDataManager: ExternalDataManager) {

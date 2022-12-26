@@ -3,6 +3,10 @@ import * as xml2js from "xml2js";
 
 import { Fetch } from "../utils/Fetch";
 
+
+
+
+
 interface RawData {
     stopy_procentowe_archiwum: {
         pozycje: RawEntry[],

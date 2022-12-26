@@ -2,6 +2,10 @@ import * as Types from "@wpazderski/wallets-types";
 
 import { Fetch } from "../utils/Fetch";
 
+
+
+
+
 export class Market {
     
     static async fetch(tickers: Types.data.market.Ticker[]): Promise<Types.data.market.TickerData[]> {

@@ -1,5 +1,9 @@
 import * as crypto from "crypto";
 
+
+
+
+
 export class Random {
     
     static generateString(length: number): string {

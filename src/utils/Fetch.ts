@@ -3,6 +3,10 @@ import * as https from "https";
 
 import { Deferred } from "./Deferred";
 
+
+
+
+
 export class Fetch {
     
     static get(url: string): Promise<string> {

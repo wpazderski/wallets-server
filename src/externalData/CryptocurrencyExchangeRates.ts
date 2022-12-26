@@ -2,6 +2,10 @@ import * as Types from "@wpazderski/wallets-types";
 
 import { Fetch } from "../utils/Fetch";
 
+
+
+
+
 export class CryptocurrencyExchangeRates {
     
     static async fetch(): Promise<{ [cryptocurrencyId: string]: Types.data.currency.ExchangeRate }> {

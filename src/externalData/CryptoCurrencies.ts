@@ -2,6 +2,10 @@ import * as Types from "@wpazderski/wallets-types";
 
 import { Fetch } from "../utils/Fetch";
 
+
+
+
+
 export class CryptoCurrencies {
     
     static async fetch(): Promise<Types.data.cryptocurrency.CryptoCurrency[]> {

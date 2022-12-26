@@ -12,6 +12,10 @@ import { InflationRates } from "./InflationRates";
 import { Market } from "./Market";
 import { ReferenceRates } from "./ReferenceRates";
 
+
+
+
+
 interface CachedExternalData {
     externalData: Types.api.externalData.ExternalData;
     cachedTickers: Types.data.market.Ticker[];
