@@ -1,6 +1,5 @@
-import * as xml2js from "xml2js";
-
 import * as Types from "@wpazderski/wallets-types";
+import * as xml2js from "xml2js";
 
 import { Fetch } from "../utils/Fetch";
 
