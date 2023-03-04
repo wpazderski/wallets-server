@@ -30,7 +30,7 @@ interface RawEntryProp {
 export class ReferenceRates {
     
     static async fetch(): Promise<Types.data.rates.MonthlyReferenceRate[]> {
-        const dataStr = await Fetch.get("https://www.nbp.pl/xml/stopy_procentowe_archiwum.xml");
+        const dataStr = await Fetch.get("https://static.nbp.pl/dane/stopy/stopy_procentowe_archiwum.xml");
         const data = await xml2js.parseStringPromise(dataStr) as RawData;
         const rawEntries = data.stopy_procentowe_archiwum.pozycje;
         
